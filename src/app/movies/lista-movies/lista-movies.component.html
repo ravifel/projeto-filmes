@@ -1,0 +1,64 @@
+ <div class="container main-container">
+
+            <div class="row text-center">
+
+                <div class="col-12">
+                <input type="text" [(ngModel)]="titulo" class="form-control">
+                <br>
+                <button type="button" class="btn btn-primary" (click)='pesquisarNome()'>Pesquisar</button>
+                </div>
+        
+            </div>
+        
+            <br>
+
+    <div class="row text-center">
+
+        <div *ngIf="!movies.Search.length == undefined">
+            <img src="https://cdn4.iconfinder.com/data/icons/cinema-bold-outline/2000/06_seat_auditorium_movie_entertainment_hall_empty_presentation-512.png" alt="">
+        </div>
+        
+        
+        <div *ngFor="let movie of movies.Search" class="col-md-3" style="padding-bottom: 30px;">
+            <div *ngIf="movies">
+            <div class="card h-100 fundoCard">
+                <a class="text-decoration-none" >
+                    <br>
+                    <div style="align-content:center;">
+                        <img src="{{ movie.Poster }}" height="240px" width="253px" alt="" class="img-capa-filme">
+                    </div>
+                </a>
+                    
+                    <h4 class="card-title">{{ movie.Title }}</h4>
+                    
+                    <div>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur nemo earum iusto.</p>
+                    </div>
+
+                    <p>{{ movie.Year }} - {{ movie.Type }}</p>
+
+
+                    <!-- <div class="card-footer">
+                        <a href="{{ plataforma.site }}" target="blank" class="btn btn-primary" >
+                            <span class="fa fa-shopping-cart"></span> Acessar
+                        </a>
+                    </div> -->
+
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- 
+<br>
+{{ moviesString }}
+<br>
+<br>
+{{ moviesSearchString }}
+<br> 
+-->

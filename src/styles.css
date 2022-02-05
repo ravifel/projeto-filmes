@@ -1,0 +1,204 @@
+/*BOOTSTRAP CSS CURSO ANGULAR*/
+
+.main-container {
+  padding-top: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow:hidden;
+}
+
+.img-home {
+height: 132px;
+border-radius: 67px;
+}
+
+.img-icone {
+border-radius: 67px;
+}
+
+
+/* IMAGEM DO FILME */
+.img-capa-filme {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.contato {
+/* background-color: #B2E3FF; */
+padding-top: 49px;
+padding-right: 291px;
+padding-left: 317px;
+padding-bottom: 100px;
+margin-right: auto;
+margin-left: auto;
+overflow: hidden;
+}
+
+.titulo-contato {
+background-color: #21252912;
+color: #212529;
+text-align: center;
+padding-bottom: 28px;
+padding-top: 28px;
+}
+
+.titulo-grande-contato {
+margin-bottom: 31px;
+}
+
+.footer {
+height: 50px;
+text-align: center;
+} 
+
+
+.form-control-contato {
+  display: block;
+  width: 100%;
+  /* margin-left: 81px; */
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  /* margin-left: 81px; */
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.fundoCard {
+  background-color: #e1e1e1bd;
+}
+
+
+
+
+/*BOOTSTRAP CSS Jumbotron - HOME*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.py-5 {
+  padding-top: 1rem!important;
+  padding-bottom: 1rem!important;
+}
+
+.fundo {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  background-color: #2125295e;
+}
+
+.fundo2 {
+  background-color: #8fbcb42b;
+}
+
+.fundoMovies {
+  background-color: #2125291f;
+}
+
+
+
+
+
+
+
+
+
+/*BOTÃO PESQUISAR - MOVIES*/
+.btn1 {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #212529;
+  border-radius: 0.6em;
+  color: #212529;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn1:hover, .btn1:focus {
+  color: #ffffff;
+  outline: 0;
+}
+
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #212529 inset;
+}
+
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}

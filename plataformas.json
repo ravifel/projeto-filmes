@@ -1,0 +1,59 @@
+{
+    "plataformas": [
+      {
+        "id": "1", 
+        "nome": "Netflix",
+        "imagem": "https://br.web.img3.acsta.net/r_654_368/newsv7/20/03/20/19/06/1232081.jpg",
+        "site": "https://www.netflix.com/"
+      },
+      {
+        "id": "2",
+        "nome": "GloboPlay",
+        "imagem": "https://www.minhaoperadora.com.br/wp-content/uploads/2021/02/globoplay-lanca-novo-plano-de-assinatura.jpg",
+        "site": "https://globoplay.globo.com/"
+      },
+      {
+        "id": "3",
+        "nome": "PrimeVideo",
+        "imagem": "https://observatoriodatv.uol.com.br/wp-content/uploads/2020/09/AMazon.png",
+        "site": "https://www.primevideo.com/"
+      },
+      {
+        "id": "4",
+        "nome": "HBOMax",
+        "imagem": "https://vejasp.abril.com.br/wp-content/uploads/2021/06/hbomax-divulgacao.jpg.jpg?quality=70&strip=info&resize=680,453",
+        "site": "https://www.hbomax.com/br/pt"
+      },
+      {
+        "id": "5",
+        "nome": "Disney+",
+        "imagem": "https://m8n3y5k8.rocketcdn.me/wp-content/uploads/2020/12/disney-1280x720-1.jpg",
+        "site": "https://www.disneyplus.com/"
+      },
+      {
+        "id": "6",
+        "nome": "Telecine",
+        "imagem": "https://tudoemtecnologia.com/wp-content/uploads/2019/01/Telecine-Play.png",
+        "site": "https://www.telecine.com.br/"
+      },
+      {
+        "id": "7",
+        "nome": "STAR+",
+        "imagem": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/STAR-PLUS-LOGO.jpg",
+        "site": "https://www.starplus.com/"
+      },
+      {
+        "id": "8",
+        "nome": "Paramount+",
+        "imagem": "https://www.robotina.us/__export/1614456406727/sites/debate/img/2021/02/27/paramount-plus-precio-peliculas.jpg_172596871.jpg",
+        "site": "https://www.paramountplus.com/"
+      },
+      {
+        "id": "9",
+        "nome": "StarzPlay",
+        "imagem": "https://f.i.uol.com.br/fotografia/2021/07/27/162739794761001f3b69551_1627397947_3x2_md.jpg",
+        "site": "https://www.starz.com/"
+      }
+
+    ]
+}

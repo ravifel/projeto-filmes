@@ -1,0 +1,33 @@
+<div class="container main-container">
+
+    <div class="row text-center">
+        
+        <div *ngFor="let plataforma of plataformas" class="col-md-4" style="padding-bottom: 30px;">
+            <div class="card h-100 fundoCard">
+                <a class="text-decoration-none" >
+                    <br>
+                    <div style="align-content:center;">
+                        <img src="{{ plataforma.imagem }}" height="164px" width="253px" alt="">
+                    </div>
+                </a>
+                    
+                    <h4 class="card-title">{{ plataforma.nome }}</h4>
+                    
+                    <div>
+                        <!-- <p >ID: {{ plataforma.id }}</p> -->
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aspernatur nemo earum iusto aut quisquam commodi modi.</p>
+                    </div>
+
+
+                    <div class="card-footer">
+                        <a href="{{ plataforma.site }}" target="blank" class="btn btn-primary" >
+                            <span class="fa fa-shopping-cart"></span> Acessar
+                        </a>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
