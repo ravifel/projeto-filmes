@@ -14,10 +14,10 @@
 
     <div class="row text-center">
 
-        <div *ngIf="!movies.Search.length == undefined">
+        <div *ngIf="!movies">
             <img src="https://cdn4.iconfinder.com/data/icons/cinema-bold-outline/2000/06_seat_auditorium_movie_entertainment_hall_empty_presentation-512.png" alt="">
         </div>
-        
+
         
         <div *ngFor="let movie of movies.Search" class="col-md-3" style="padding-bottom: 30px;">
             <div *ngIf="movies">
